@@ -8,7 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 	<link rel="stylesheet" type="text/javascript" href="zepto.js"/>
 	
-
 </head>
 <body>
 <div class="content-container">

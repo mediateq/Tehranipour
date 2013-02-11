@@ -1,33 +1,5 @@
-﻿<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-8">
-	<title>Tehranipour</title>
-	<link rel="stylesheet" type="text/css" href="reset.css"/>
-	<link rel="stylesheet" type="text/css" href="1styles.css"/>
-	<link rel="stylesheet" type="text/css" href="style.css"/>
-	
-</head>
+﻿<?php include('./inc/header.php') ?>
 
-<body>
-<div class="content-container">
-	<header class="head">
-		<section class="contain">
-			<menu class="menubar">
-				<div class="logo">{Ebrahim Tehranipour}</div>	
-				<div class="menu">
-					<ul>
-						<li><a href="contact.html">EMAIL</a></li>
-						<li><a href="gallery.html">GALLERY</a></li>
-						<li><a href="about.html">ABOUT</a></li>
-						<li><a href="index.html">HOME</a></li>
-					</ul>
-				</div>
-				<div class="clear"></div>
-			</menu>
-			
-		</section>
-	</header>
 	<section class="middle">
 		<div class="aboutpg">
 			<div class="text">
@@ -38,24 +10,5 @@
 			</div>
 		</div>	
 	</section>
-	<footer class="foot">
-			<div class="next"></div>
-			<div class="previous"></div>
-			<section class="slideshow">
-				<div class="train">
-					<div style="background-Image:url('images/1s.jpg');"></div>
-					<div style="background-Image:url('images/1s.jpg');"></div>
-					<div style="background-Image:url('images/1s.jpg');"></div>
-					<div style="background-Image:url('images/1s.jpg');"></div>
-					<div style="background-Image:url('images/1s.jpg');"></div>
-					<div style="background-Image:url('images/1s.jpg');"></div>
-				</div>
-			</section>
-			<div class="badboy"></div>
-			<div class="text">
-				<p>{ EBRAHIM TEHRANIPOUR } © 2012&nbsp; |&nbsp; ALL RIGHTS RESERVED</p>
-			</div>
-	</footer>	
-</div>
-</body>
-</html>
+	
+<?php include('./inc/footer.php') ?>

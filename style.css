@@ -282,14 +282,21 @@ section.Ajaxloader div.contact .leftcontact .messege{
 	border-radius: 			10px;
 	border: 				inset 2px;
 }
-section.Ajaxloader div.contact .leftcontact a{
+section.Ajaxloader div.contact .leftcontact input.but{
 	margin-top: 			20px;
 	color: 					black;
 	text-transform: 		uppercase;
 	font:					14px/50px monospace;
 	text-decoration: 		none;
 	cursor: 				pointer;
+	border: 0;
+	background-color: transparent;
+	text-align: left;
+	width: 120px;
 
+}
+section.Ajaxloader div.contact .leftcontact iframe{
+	opacity: 0;
 }
 section.Ajaxloader div.contact .leftcontact a:hover{
 	text-decoration: 		underline;

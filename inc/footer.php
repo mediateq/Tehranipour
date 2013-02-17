@@ -2,18 +2,20 @@
 <footer class="foot">	
 	<div class="mom">
 		<div class="slide">
-			<div class="next"></div>
+			<div class="next" id="next"></div>
 			<div class="previous"></div>
 				<div class="slidebar">
 					<div class="train" id="train">
 						<?php
-						$path = './images/small';
-						$images = scandir($path);
-						foreach($images as $img){
-							$img_arr = explode('.', $img);
-							$img_type = strtolower( end($img_arr) );
-							if ($img_type=='jpg') {
-								echo "<img src='$path/$img'>";
+						$path= './images/small';
+						$files= scandir($path);
+						$len= 0;
+						foreach ($files as $file) {
+							$exp= explode('.',$file);
+							$type= end($exp);
+							if ($type == 'jpg'){
+								echo "<img src='$path/$file'>";
+								$len++;
 							}
 						}
 					?>

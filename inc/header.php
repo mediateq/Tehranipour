@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="reset.css"/>
 	<link rel="stylesheet" type="text/css" href="1styles.css"/>
 	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/javascript" href="slide.js"/>
 	<link rel="stylesheet" type="text/javascript" href="zepto.js"/>
 	
 </head>

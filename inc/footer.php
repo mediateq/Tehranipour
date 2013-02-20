@@ -5,7 +5,7 @@
 			<div class="next" id="next"></div>
 			<div class="previous"></div>
 				<div class="slidebar">
-					<div class="train" id="train">
+					<div class="train">
 						<?php
 						$path= './images/small';
 						$files= scandir($path);

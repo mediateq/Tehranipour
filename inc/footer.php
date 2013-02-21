@@ -7,7 +7,7 @@
 				<div class="slidebar">
 					<div class="train">
 						<?php
-						$path= './images/small';
+						$path= './images/slidepic';
 						$files= scandir($path);
 						$len= 0;
 						foreach ($files as $file) {

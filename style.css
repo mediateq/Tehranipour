@@ -88,7 +88,7 @@ div.content-container{
 	-webkit-transition: 	all 500ms;
   	-moz-transition: 		all 500ms;
   	-o-transition: 			all 500ms;
-  	-os-transition: 		all 500ms;
+  	-ms-transition: 		all 500ms;
   	
 }
 /* ... End MENUBAR ... */
@@ -132,10 +132,16 @@ footer.foot .mom .slide .slidebar{
 }
 
 footer.foot .mom .slide .slidebar .train {
-	width: 					2000px;
-	height: 				100px;
-	margin: 				0 auto;
-	margin-top: 			0px;
+	width     :	2000px;
+	height    : 100px;
+	margin    : 0 auto;
+	margin-top: 0px;
+	position  : relative;
+	transition: 	all 500ms;
+	-webkit-transition: 	all 500ms;
+  	-moz-transition: 		all 500ms;
+  	-o-transition: 			all 500ms;
+  	-ms-transition: 		all 500ms;
 }
 
 footer.foot .mom .slide .slidebar .train img{

@@ -6,9 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="reset.css"/>
 	<link rel="stylesheet" type="text/css" href="1styles.css"/>
 	<link rel="stylesheet" type="text/css" href="style.css"/>
-	<link rel="stylesheet" type="text/javascript" href="slide.js"/>
-	<link rel="stylesheet" type="text/javascript" href="zepto.js"/>
-	
+	<script type="text/javascript" src="slide.js"></script>
+	<script type="text/javascript" src="zepto.js"></script>
+		
 </head>
 <body>
 <div class="content-container">

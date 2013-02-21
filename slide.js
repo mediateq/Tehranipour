@@ -12,7 +12,7 @@ window.onload = function(){
 	slider = function(n){
 		if(n>(img.length-1)) n=0;
 		if(n<0) n = (img.length-1);
-		train.style.left = (-157*n)+'px';
+		train.style.left = (-150*n)+'px';
 		currentslide = n;
 	};
 	

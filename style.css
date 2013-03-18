@@ -347,3 +347,56 @@ section.Ajaxloader div.gallery{
 	box-shadow: 			8px 8px 8px 8px;
 	opacity: 				0.7;
 }
+
+section.Ajaxloader div.gallery ul{
+	padding-top: 25px;
+	margin-right: 50px;
+}
+
+section.Ajaxloader div.gallery ul li{
+	float: right;
+	margin-right: 18px;
+	height: 250px;
+}
+
+section.Ajaxloader div.gallery ul li a{
+	display: block;
+	position: relative;
+}
+
+section.Ajaxloader div.gallery ul li .effe{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: url('./images/magnify.png') center center no-repeat #000;
+	opacity: 0;
+	-webkit-transition: opacity 500ms;
+	   -moz-transition: opacity 500ms;
+	    -ms-transition: opacity 500ms;
+	     -o-transition: opacity 500ms;
+	        transition: opacity 500ms;
+}
+
+section.Ajaxloader div.gallery ul li .effe:hover{
+	opacity: 0.4;
+	-webkit-transition: opacity 800ms;
+	   -moz-transition: opacity 800ms;
+	    -ms-transition: opacity 800ms;
+	     -o-transition: opacity 800ms;
+	        transition: opacity 800ms;
+}
+
+section.Ajaxloader div.gallery ul li img{
+	width: 265px;
+	height: 177px;
+}
+
+section.Ajaxloader div.gallery ul li p{
+	margin-top: 11px;
+	color: #deae54;
+	font-size: 18px;
+}

@@ -24,11 +24,7 @@ window.onload = function(){
 		slider(currentslide-1);
 	}
 	
-	/*var intervalName = false;     b nazaram in ghesmat bikhode.
-	(startSliding = function(){
-		if(intervalName) return; 
-		intervalName = setInterval(nextslide,3000);
-	})();*/
+	
 	
 	stopSliding = function(){
 		if(!intervalName) return;

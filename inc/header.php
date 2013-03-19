@@ -23,10 +23,11 @@
 				<div class="logo">{Ebrahim Tehranipour}</div>	
 				<div class="menu">
 					<ul>
-						<li><a href="contact.php">EMAIL</a></li>
-						<li><a href="gallery.php">GALLERY</a></li>
-						<li><a href="about.php">ABOUT</a></li>
-						<li><a href="index.php">HOME</a></li>
+						<li><a href="index.php">صفحه اصلی</a></li>
+						<li><a href="about.php">درباره من</a></li>
+						<li><a href="gallery.php">نما خانه</a></li>
+						<li><a href="contact.php">ارتباط</a></li>
+												
 					</ul>
 				</div>
 				<div class="clear"></div>

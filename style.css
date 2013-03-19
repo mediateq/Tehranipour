@@ -40,7 +40,7 @@ div.content-container{
 	min-height: 			100px;
 	float: 					left;
 	margin-top: 			100px;
-	font: 					35px/100px 'Playfair Display', 'Times New Roman', serif;
+	font: 					34px/100px 'Playfair Display', 'Times New Roman', serif;
 	color: 					white;
 	text-align: 			center;
 }
@@ -69,7 +69,7 @@ div.content-container{
 	text-decoration: 		none;
 	color:					white;
 	display: 				inline-block;
-	font: 					11px/242px 'Playfair Display', 'Times New Roman', serif;
+	font: 					13px/242px 'Playfair Display', 'Times New Roman', serif;
 	text-transform: 		uppercase;
 	width: 					100%;
 	height: 				100%;
@@ -259,6 +259,8 @@ section.Ajaxloader div.contact{
 	padding:		 		1px;
 	box-shadow: 			8px 8px 8px 8px;
 	opacity: 				0.7;
+	direction: 				rtl;	
+	text-align: 			right;
 }
 
 section.Ajaxloader div.contact .leftcontact, section.Ajaxloader div.contact .rightcontact{
@@ -314,6 +316,7 @@ section.Ajaxloader div.contact .rightcontact{
 section.Ajaxloader div.contact .rightcontact p{
 	margin-top: 			80px;
 	line-height: 			25px;
+	margin-right: 			25px;
 }
 section.Ajaxloader div.contact .rightcontact ul{
 	margin-top: 			50px;

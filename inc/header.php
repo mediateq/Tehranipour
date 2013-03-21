@@ -20,13 +20,13 @@
 	<header class="head">
 		<section class="contain">
 			<menu class="menubar">
-				<div class="logo">{Ebrahim Tehranipour}</div>	
+				<div class="logo"><a href="index.php">{Ebrahim Tehranipour}</a></div>	
 				<div class="menu">
 					<ul>
+						<li><a class="hanan" href="hanan.php">Hanan Ensemble</a></li>
 						<li><a href="contact.php">Email</a></li>
 						<li><a href="gallery.php">Gallery</a></li>
-						<li><a href="about.php">About</a></li>
-						<li><a href="index.php">Home</a></li>
+						<li><a href="home.php">Home</a></li>
 					</ul>
 				</div>
 				<div class="clear"></div>

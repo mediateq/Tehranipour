@@ -22,15 +22,12 @@ body{
 div.content-container{
 	margin: 				0 auto;
 	width: 					1000px;
-
-	
 }
 
 .content-container header.head{
 	width: 					inherit;
 	z-index: 				100;
 }
-
 .content-container header.head .contain{
 	width: 					inherit;
 }
@@ -38,7 +35,6 @@ div.content-container{
 .content-container header.head .contain .menubar{
 	width: 					inherit;
 	min-height: 			250px;
-	
 	
 }
 
@@ -50,6 +46,10 @@ div.content-container{
 	font: 					34px/100px 'Playfair Display', 'Times New Roman', serif;
 	color: 					white;
 	text-align: 			center;
+}
+.content-container header.head .contain .menubar .logo a{
+	text-decoration: 		none;
+	color: 					#fff;
 }
 
 .content-container header.head .contain .menubar .menu{
@@ -71,6 +71,10 @@ div.content-container{
 	min-height: 			250px;
 	text-align: 			center;
 	display: 				inline-block;
+}
+.content-container header.head .contain .menubar .menu ul li .hanan{
+	font: 					13px/20px 'Playfair Display', 'Times New Roman', serif;
+	margin-top: 			110px;
 }
 .content-container header.head .contain .menubar .menu ul li a{
 	text-decoration: 		none;

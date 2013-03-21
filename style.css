@@ -1,4 +1,11 @@
-*,header,div,footer{
+
+@font-face{
+   
+    src: url('fonts/artnouveaucaps.ttf') format('truetype');
+	font-weight: normal;
+	font-style : normal;
+}
+	*,header,div,footer{
 	outline: 0px dashed red;
 }
 body{

@@ -23,9 +23,9 @@
 				<div class="logo">{Ebrahim Tehranipour}</div>	
 				<div class="menu">
 					<ul>
-						<li><a href="about.php">About</a></li>
-						<li><a href="gallery.php">Gallery</a></li>
 						<li><a href="contact.php">Email</a></li>
+						<li><a href="gallery.php">Gallery</a></li>
+						<li><a href="about.php">About</a></li>
 						<li><a href="index.php">Home</a></li>
 					</ul>
 				</div>

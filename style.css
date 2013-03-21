@@ -227,7 +227,7 @@ section.middle .aboutpg{
 	background-color:		white;
 	width: 					inherit;
 	min-height: 			600px;
-	opacity: 				0.6;
+	opacity: 				0.9;
 	border-radius: 			20px;
 	margin-bottom: 			50px;
 	padding:		 		1px;
@@ -355,7 +355,7 @@ section.Ajaxloader div.gallery{
 	margin-bottom: 			50px;
 	padding:		 		1px;
 	box-shadow: 			8px 8px 8px 8px;
-	opacity: 				0.7;
+	opacity: 				0.9;
 }
 
 section.Ajaxloader div.gallery ul{

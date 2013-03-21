@@ -251,16 +251,16 @@ section.middle .aboutpg .text p{
 /* --- Contact Page --- */
 
 section.Ajaxloader div.contact{
-	background-color:		white;
+	background-color: 		#fff;
 	width: 					inherit;
 	min-height: 			600px;
 	border-radius: 			20px;
 	margin-bottom: 			50px;
 	padding:		 		1px;
 	box-shadow: 			8px 8px 8px 8px;
-	opacity: 				0.7;
-	direction: 				rtl;	
-	text-align: 			right;
+	opacity: 				0.9;
+	direction: 				ltr;	
+	text-align: 			left;
 }
 
 section.Ajaxloader div.contact .leftcontact, section.Ajaxloader div.contact .rightcontact{
@@ -269,6 +269,8 @@ section.Ajaxloader div.contact .leftcontact, section.Ajaxloader div.contact .rig
 	margin-top: 			25px;
 	float: 					left;
 	margin-left: 			30px;
+	text-align: 			left;
+	color: 					#ddd;
 }
 
 section.Ajaxloader div.contact .leftcontact input{
@@ -293,14 +295,16 @@ section.Ajaxloader div.contact .leftcontact input.but{
 	margin-top: 			20px;
 	color: 					black;
 	text-transform: 		uppercase;
-	font:					14px/50px monospace;
+	font:					15px/70px monospace;
 	text-decoration: 		none;
 	cursor: 				pointer;
-	border: 0;
-	background-color: transparent;
-	text-align: left;
-	width: 120px;
-
+	border: 				0;
+	background-color: 		transparent;
+	text-align: 			left;
+	width: 					150px;
+}
+section.Ajaxloader div.contact .leftcontact input.but:hover{
+	text-decoration: 		underline;
 }
 section.Ajaxloader div.contact .leftcontact iframe{
 	opacity: 0;
@@ -312,11 +316,13 @@ section.Ajaxloader div.contact .leftcontact a:hover{
 section.Ajaxloader div.contact .rightcontact{
 	margin-left: 			520px;
 	float: 					none;
+	text-align: 			left;
 }
 section.Ajaxloader div.contact .rightcontact p{
 	margin-top: 			80px;
 	line-height: 			25px;
 	margin-right: 			25px;
+	color: 					#000;
 }
 section.Ajaxloader div.contact .rightcontact ul{
 	margin-top: 			50px;
@@ -339,6 +345,7 @@ section.Ajaxloader div.contact .rightcontact ul li img:hover{
 	opacity:				1;
 	cursor: 				pointer;
 }
+
 /* Gallery Page */
 section.Ajaxloader div.gallery{
 	background-color:		white;
@@ -378,10 +385,10 @@ section.Ajaxloader div.gallery ul li .effe{
 	background: url('./images/magnify.png') center center no-repeat #000;
 	opacity: 0;
 	-webkit-transition: opacity 500ms;
-	   -moz-transition: opacity 500ms;
-	    -ms-transition: opacity 500ms;
-	     -o-transition: opacity 500ms;
-	        transition: opacity 500ms;
+	-moz-transition: opacity 500ms;
+	-ms-transition: opacity 500ms;
+	-o-transition: opacity 500ms;
+	transition: opacity 500ms;
 }
 
 section.Ajaxloader div.gallery ul li .effe:hover{
